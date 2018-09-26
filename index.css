@@ -253,3 +253,33 @@ body {
         font-weight: 300px;
         text-align: justify;
 }
+
+
+
+.footer-wrapper {
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+
+.footer-logos {
+    padding: 10px;
+    vertical-align: center;
+    display: block; 
+    align-self: center;
+}
+
+.footer-menu {
+    padding: 10px;
+    vertical-align: center;
+    align-self: center;
+}
+
+.footer-text {
+    font-size: 12px;
+    padding: 10px;
+    vertical-align: right;
+    align-self: center;
+}
