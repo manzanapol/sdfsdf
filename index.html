@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hola Mundo!</title>
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="superslides/superslides.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,900" rel="stylesheet">
+    </head>
+    <body>
+    	<!-- esto es el menu -->
+    	<div class="container header-wrapper" style="border-bottom: 5px solid red;">
+		  	<div class="row">
+			    <div class="col-1">
+			      	<img src="img/desktop-unam@2x.png" class="logos">
+			    </div>
+			    <div class="col-1">
+			    	<img src="img/desktop-logo-header-unam2@2x.png" class="logos">
+			    </div>
+			    <div class="col-3">
+			      	<img src="img/desktop-ccm@2x.png" class="logos">
+			    </div>
+			    <div class="col-1">
+			    </div>
+			    <div class="col-1">
+			    	 <label class="option">Acerca de </label>
+			    	 <div class="menu-options">
+			    	 	<a href="#">Ubicación</a>
+			    	 	<a href="#">Reglamento </a>
+			    	 	<a href="#">Numeralia </a>
+			    	 	<a href="#">Horarios </a>
+			    	 </div>
+			    </div>
+			     <div class="col-2">
+			     	 <label class="option">Recursos electrónicos</label>
+			     	 <div class="menu-options">
+			    	 	<a href="#">Libros Electrónicos</a>
+			    	 	<a href="#">Revistas Electrónicas </a>
+			    	 	<a href="#">Obras Completas y revistas </a>
+			    	 	<a href="#">Sitios de interés </a>
+			    	 	<a href="#">Acceso Remoto </a>
+			    	 	<a href="#">MS </a>
+			    	 </div>
+			    </div>
+			    <div class="col-1">
+			     	 <label class="option">Catálogos</label>
+			     	  <div class="menu-options">
+			    	 	<a href="#">Sotero Prieto</a>
+			    	 	<a href="#">CIMAT </a>
+			    	 	<a href="#">CINVESTAV</a>
+			    	 	<a href="#">LIBRUNAM</a>
+			    	 	<a href="#">SERIUNAM</a>
+			    	 	<a href="#">TESIUNAM</a>
+			    	 	<a href="#">PROQUEST</a>
+			    	 </div>
+			    </div>
+			    <div class="col-2">
+			     	 <label class="option">producción científica</label>
+			    </div>
+		  	</div>
+		</div>
+		<!-- aqui termina el menu -->
+
+		<!-- este es el bonito slider -->
+		<div class="wrapper-slider">
+			<div id="slides">
+			  <ul class="slides-container" >
+			  	<li>
+				    <img src="img/unidad.png" alt="" >
+				    <div class="container">
+				    	<div class="content">
+							<h2> BIENVENIDOs </h2>
+							<p>a la unidad de documntación</p>
+						</div>
+	     			</div>
+     			</li>
+			    <li>
+				    <img src="img/unidad2.png" alt="">
+				    <div class="container">
+		       		 	<div class="content">
+							<h2> BIENVENIDOS </h2>
+							<p>a la unidad de documentación</p>
+						</div>
+	     			</div>
+     			</li>
+     			 <li>
+				    <img src="img/unidad3.png" alt="">
+				    <div class="container">
+		       		 	<div class="content">
+							<h2> BIENVENIDOS </h2>
+							<p>a la unidad de documentación</p>
+						</div>
+	     			</div>
+     			</li>
+			  </ul>
+			</div>
+		</div>
+			<!-- FIN Del bonito slider -->
+				<!-- BARRA DE NUSQUEDA HACE FALTA EL Z INDEX -->
+		<div class="container-wrapper">
+			<div class="wrapper-busqueda">
+				<div class="content-busqueda">
+				<h4> Búsqueda en el Catálogo Local:</h4>
+				 <div> 
+					 	<div class="dropdown">
+							  <span>Todos los campos</span>
+							  <div class="dropdown-content">
+							    <p>libros</p>
+							  </div>
+						</div>			 	
+							  <input type="text" id="uname" name="uname" required
+							               minlength="4" maxlength="8"
+							               placeholder="escriba aqui su busqueda" />
+							  <span class="validity"></span>
+				</div> 
+						<div class="container content-busqueda">
+							  <label class="radio-inline">
+							    <input type="radio" name="survey" id="Radios1" value="Yes">
+							    Toda la base
+							  </label>
+							  <label class="radio-inline">
+							    <input type="radio" name="survey" id="Radios2" value="No">
+							    Libros impresos
+							  </label>
+							  <label class="radio-inline">
+							    <input type="radio" name="survey" id="Radios3" value="Notsure" disabled>
+							    Libros digitales
+							  </label>
+							</div>
+				</div>
+			</div>
+		</div>
+			<!-- FIN DE BARRA DE BUSQUEDA -->
+			<!-- intro -->
+			<div class="container intro-wrapper">
+				Texto introductorio <br>
+				Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor
+			</div>
+			<!-- FIN intro -->
+
+			<div class="container">
+
+				<div class="carousel js-carousel">
+
+	<div class="carousel__container js-carousel-container">
+		<div class="ab-titulo">Alerta Bibliográfica</div>
+		<div class="carousel__list js-carousel-list">
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-1.jpg"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC20.7/M43N45</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>A User-friendly introduction to Lebesgue measure and integration</spam> <br>  Gail S.
+Nelson. Providence, Rhode Island: American Mathematical Society, 2015.
+(Student Mathematical Library v. 78)<br> 
+http://www.ams.org/books/stml/078/</div>
+
+			</div>
+			
+
+
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-3.jpg" style="width: 200px;"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC20.7/M43N45</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>Atmospheric science: an introductory survey</spam> <br>  John M. Wallace. Amsterdam.
+Academic Press, 2006.
+<br> 
+</div>
+
+			</div>
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-2.jpg" style="width: 200px;"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QA63/E7418</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>¡AJA! Soluciones: soluciones ingeniosas para 100 problemas en apariencia
+difíciles</spam> <br>  Martin Erickson. España. Real Sociedad Matemática Española, 2013.
+<br> 
+</div>
+
+			</div>
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-4.jpg"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC21.3/C85</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>Basic concepts in physics: from the cosmos to quarks</spam> <br> Masud Chaichian
+New
+York. Springer Verlag, 2014.<br> 
+</div>
+
+			</div>
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-5.jpg"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC20.7/M43N45</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>A User-friendly introduction to Lebesgue measure and integration</spam> <br>  Gail S.
+Nelson. Providence, Rhode Island: American Mathematical Society, 2015.
+(Student Mathematical Library v. 78)<br> 
+http://www.ams.org/books/stml/078/</div>
+
+			</div>
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-6.jpg"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC20.7/M43N45</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>A User-friendly introduction to Lebesgue measure and integration</spam> <br>  Gail S.
+Nelson. Providence, Rhode Island: American Mathematical Society, 2015.
+(Student Mathematical Library v. 78)<br> 
+http://www.ams.org/books/stml/078/</div>
+
+			</div>
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-7.jpg"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC20.7/M43N45</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>A User-friendly introduction to Lebesgue measure and integration</spam> <br>  Gail S.
+Nelson. Providence, Rhode Island: American Mathematical Society, 2015.
+(Student Mathematical Library v. 78)<br> 
+http://www.ams.org/books/stml/078/</div>
+
+
+			</div>
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-8.jpg"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC20.7/M43N45</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>A User-friendly introduction to Lebesgue measure and integration</spam> <br>  Gail S.
+Nelson. Providence, Rhode Island: American Mathematical Society, 2015.
+(Student Mathematical Library v. 78)<br> 
+http://www.ams.org/books/stml/078/</div>
+
+			</div>
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-9.jpg"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC20.7/M43N45</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>A User-friendly introduction to Lebesgue measure and integration</spam> <br>  Gail S.
+Nelson. Providence, Rhode Island: American Mathematical Society, 2015.
+(Student Mathematical Library v. 78)<br> 
+http://www.ams.org/books/stml/078/</div>
+
+			</div>
+			<div class="carousel__item js-carousel-item">
+				<div class="ab-wrapper"><img src="img/book/ab-10.jpg"></div>
+				<div class=ab-text-wrapper> <spam class=ab-text-wrapper-title>QC20.7/M43N45</spam> <br> 
+<spam class=ab-text-wrapper-subtitle>A User-friendly introduction to Lebesgue measure and integration</spam> <br>  Gail S.
+Nelson. Providence, Rhode Island: American Mathematical Society, 2015.
+(Student Mathematical Library v. 78)<br> 
+http://www.ams.org/books/stml/078/</div>
+
+			</div>
+			
+		</div>
+		<div class="ab-titulo-center">leer alerta completa</div>
+	</div>
+	
+	<div class="carousel__nav">
+		<button class="carousel__button--prev js-carousel-button" data-dir="prev">&lt;</button>
+		<button class="carousel__button--next js-carousel-button" data-dir="next">&gt;</button>
+	</div>
+</div>
+
+				
+			</div>
+			</div>
+
+		
+				<div class="container news-wrapper" style="border-bottom: 5px solid red;">
+					<div class="ab-titulo">Noticias</div>
+				  	<div class="row">
+					    <div class="col-4"><img src="img/noticias/noticias1.jpg"  class= "news-img"> </div>
+					    <div class="col-8 news-text"> <span class="ab-text-wrapper-title">La fil 2018</span> <br> La FILUNI 2018 tendrá como sede el Centro de Exposiciones y Congresos UNAM, reunirá a editores, académicos, bibliotecarios, investigadores, profesores y público en general y en ella se ofrecerán más de 200 actividades académicas y artísticas que se desarrollarán alrededor de la producción editorial universitaria nacional e internacional.</div>
+					    
+
+
+
+					</div>
+				</div>
+
+
+
+
+    </body>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="jquery/jquery.min.js"></script>
+     <script src="bootstrap/bootstrap.css"></script>
+    <script src="jquery/index.js"></script>
+    <script src="superslides/jquery.superslides.min.js"></script>
+    
+</html>
